@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "Trayson",
+        "lastname": "Kelii",
+        "email:": "traysonkelii@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "10/31/92"
+    },
+    "contact2": {
+        "firstName": "Sheldon",
+        "lastname": "Medeiros",
+        "email:": "sheldonmedeiros@gmail.com",
+        "favoriteColor": "Purple",
+        "birthday": "05/06/94"
+    },
+    "contact3": {
+        "firstName": "Josh",
+        "lastname": "Christensen",
+        "email:": "joshchristensen1@gmail.com",
+        "favoriteColor": "Red",
+        "birthday": "03/19/97"
+    }
+}
