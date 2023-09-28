@@ -11,3 +11,17 @@ GET http://localhost:3000/contacts/65135b43b03dd75560974442
 
 ###
 GET http://localhost:3000/contacts/65135b64b03dd75560974443
+
+
+// PRODUCTION Deploy
+###
+GET https://cse341-tu0r.onrender.com/contacts
+
+###
+GET https://cse341-tu0r.onrender.com/contacts/65135b22b03dd75560974441
+
+###
+GET https://cse341-tu0r.onrender.com/contacts/65135b43b03dd75560974442
+
+###
+GET https://cse341-tu0r.onrender.com/contacts/65135b64b03dd75560974443
