@@ -63,3 +63,18 @@ Content-Type: application/json
     "favoriteColor":"Silver",
     "birthday":"02/23/2002"
 }
+
+###
+PUT https://cse341-tu0r.onrender.com/contacts/65135b64b03dd75560974443 HTTP/1.1
+Content-Type: application/json
+
+{
+  "firstName": "Josh",
+  "lastName": "Christensen",
+  "email": "joshchristensen1@gmail.com",
+  "favoriteColor": "Blue",
+  "birthday": "03/19/97"
+}
+
+###
+DELETE https://cse341-tu0r.onrender.com/contacts/6518d9a1a890013d46f5e47d HTTP/1.1
