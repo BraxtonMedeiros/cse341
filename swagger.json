@@ -5,13 +5,13 @@
     "description": "Contact API",
     "version": "1.0.0"
   },
-  "host": "cse341-tu0r.onrender.com",
+  "host": "localhost:3000",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
-    "/": {
+    "/contacts/": {
       "get": {
         "description": "",
         "produces": [
@@ -64,7 +64,7 @@
         }
       }
     },
-    "/{id}": {
+    "/contacts/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -146,6 +146,16 @@
           },
           "500": {
             "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "responses": {
+          "default": {
+            "description": ""
           }
         }
       }
